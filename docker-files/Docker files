@@ -19,7 +19,7 @@ First of all the jmeter base image needs to be created from the opend-jdk image,
 		
 		RUN   mkdir /jmeter \
 		&& cd /jmeter/ \
-		&& wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-$JMETER_VERSION.tgz \
+		&& wget dlcdn.apache.org//jmeter/binaries/apache-jmeter-$JMETER_VERSION.tgz \
 		&& tar -xzf apache-jmeter-$JMETER_VERSION.tgz \
 		&& rm apache-jmeter-$JMETER_VERSION.tgz
 		
